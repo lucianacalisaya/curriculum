@@ -89,6 +89,10 @@ header .header {
     flex-wrap: wrap;
     justify-content: center;
 }
+.work a{
+    text-decoration: none;
+    color: #e0ff00;
+}
 
 .background, .skills, .about {
     padding-top: 10px;
