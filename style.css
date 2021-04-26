@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+}
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: #FFFFFF; 
+}
+h3, h4 {
+    font-family: 'Bebas Neue', cursive;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+li, p, h6 {
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    color: #FDFBF9;
+}
+
+header .header {
+    display: flex;
+    justify-content: center;
+}
+
+.quick-info {
+    display: flex;
+    justify-content: center;
+    margin: 10px 5%;
+}
+
+.quick-info__move {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #bc8f8f;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.quick-info .quick-info__image {
+    width: 15%;
+}
+.quick-info img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.quick-info .quick-info__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+.quick-info .quick-info__contact .portfolio {
+    color: #FDFBF9;
+    background-color: #141414;
+    border-radius:  20px;
+    font-family: 'Montserrat', sans-serif;
+    width: fit-content;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.quick-info .social-media{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quick-info .social-media a {
+    font-size: 20px;
+    color: #141414;
+}
+
+.cv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.background, .skills, .about {
+    padding-top: 10px;
+}
+
+.studies, .courses, .work, .things, .others {
+    margin-bottom: 5px;
+}
+
+.cv .skills {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.skills ul {
+    width: 180px;
+}
+
+.skills h4 {
+    width: 36%;
+}
+
+.languages, .sketch-code, .sketch, .frameworks, .team, .plataform, .ux-ui {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.cv .about, .quick-info__move, .footer {
+    width: 815.7px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .social-media {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer h6 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    font-size: 20px;
+    color: #FDFBF9;
+}
+/* .quick-info a:hover {
+    transform: scale(1.1);
+} */
+
+.fa-envelope:hover, .fa-linkedin-in:hover, .fa-github:hover, .fa-behance:hover, .portfolio:hover {
+    transform: scale(1.1);
+}
+
+.footer .fa-envelope:hover {
+    padding: 5px;
+    border-radius: 100%;
+    background-color: #ea4335;   
+}
+
+.footer .fa-linkedin-in:hover {
+    padding: 5px;
+    border-radius: 100%;
+    background-color: #0077b5;   
+}
+
+.footer .fa-github:hover {
+    padding: 5px;
+    border-radius: 100%;
+    background-color: #6e5494;   
+}
+
+.footer .fa-behance:hover {
+    padding: 5px;
+    border-radius: 100%;
+    background-color: #1769ff;   
+}
+
+span {
+    background-color: #B33F40;
+    padding: 2px;
+    border-radius: 15px;
+}
