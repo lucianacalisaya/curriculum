@@ -150,9 +150,6 @@ footer .social-media {
     font-size: 20px;
     color: #FDFBF9;
 }
-/* .quick-info a:hover {
-    transform: scale(1.1);
-} */
 
 .fa-envelope:hover, .fa-linkedin-in:hover, .fa-github:hover, .fa-behance:hover, .portfolio:hover {
     transform: scale(1.1);
