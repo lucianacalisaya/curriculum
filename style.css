@@ -155,30 +155,30 @@ footer .social-media {
     color: #FDFBF9;
 }
 
+.footer i {
+    padding: 5px;
+}
+
 .fa-envelope:hover, .fa-linkedin-in:hover, .fa-github:hover, .fa-behance:hover, .portfolio:hover {
     transform: scale(1.1);
 }
 
 .footer .fa-envelope:hover {
-    padding: 5px;
     border-radius: 100%;
     background-color: #ea4335;   
 }
 
 .footer .fa-linkedin-in:hover {
-    padding: 5px;
     border-radius: 100%;
     background-color: #0077b5;   
 }
 
 .footer .fa-github:hover {
-    padding: 5px;
     border-radius: 100%;
     background-color: #6e5494;   
 }
 
 .footer .fa-behance:hover {
-    padding: 5px;
     border-radius: 100%;
     background-color: #1769ff;   
 }
