@@ -157,6 +157,7 @@ footer .social-media {
 
 .footer i {
     padding: 5px;
+    border-radius: 100%;
 }
 
 .fa-envelope:hover, .fa-linkedin-in:hover, .fa-github:hover, .fa-behance:hover, .portfolio:hover {
@@ -164,22 +165,18 @@ footer .social-media {
 }
 
 .footer .fa-envelope:hover {
-    border-radius: 100%;
     background-color: #ea4335;   
 }
 
 .footer .fa-linkedin-in:hover {
-    border-radius: 100%;
     background-color: #0077b5;   
 }
 
 .footer .fa-github:hover {
-    border-radius: 100%;
     background-color: #6e5494;   
 }
 
 .footer .fa-behance:hover {
-    border-radius: 100%;
     background-color: #1769ff;   
 }
 
