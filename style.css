@@ -5,15 +5,15 @@
 }
 
 body {
-    background-color: #141414;
+    background-color: #FFFFFF;
 }
 h1 {
     font-family: 'Bebas Neue', cursive;
-    color: #FFFFFF; 
+    color: #141414; 
 }
 h3, h4 {
     font-family: 'Bebas Neue', cursive;
-    color: #FFFFFF;
+    color: #141414;
     letter-spacing: 1px;
 }
 
@@ -24,7 +24,7 @@ h5 {
 li, p, h6 {
     font-family: 'Montserrat', sans-serif;
     list-style: none;
-    color: #FDFBF9;
+    color: #212121;
 }
 
 header .header {
@@ -64,7 +64,7 @@ header .header {
 }
 
 .quick-info .quick-info__contact .portfolio {
-    color: #FDFBF9;
+    color: #FFFFFF;
     background-color: #141414;
     border-radius:  20px;
     font-family: 'Montserrat', sans-serif;
@@ -81,7 +81,7 @@ header .header {
 
 .quick-info .social-media a {
     font-size: 20px;
-    color: #141414;
+    color: #FFFFFF;
 }
 
 .cv {
@@ -91,7 +91,7 @@ header .header {
 }
 .work a{
     text-decoration: none;
-    color: #e0ff00;
+    color: #bc8f8f;
 }
 
 .background, .skills, .about {
@@ -152,7 +152,7 @@ footer .social-media {
 
 .footer a {
     font-size: 20px;
-    color: #FDFBF9;
+    color: #212121;
 }
 
 .footer i {
@@ -181,7 +181,7 @@ footer .social-media {
 }
 
 span {
-    background-color: #B33F40;
+    background-color: #bc8f8f;
     padding: 2px;
     border-radius: 15px;
 }
