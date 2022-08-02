@@ -32,6 +32,12 @@ header .header {
     justify-content: center;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .quick-info {
     display: flex;
     justify-content: center;
@@ -87,13 +93,16 @@ header .header {
 .cv {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;    
+    width: 815.7px;
 }
 .work a{
     text-decoration: none;
     color: #bc8f8f;
 }
-
+.background {
+    width: 497.75px;
+}
 .background, .skills, .about {
     padding-top: 10px;
 }
@@ -122,7 +131,7 @@ header .header {
     margin-bottom: 5px;
 }
 
-.cv .about, .quick-info__move, .footer {
+.about, .quick-info__move, .footer {
     width: 815.7px;
 }
 
