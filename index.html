@@ -18,57 +18,122 @@
 </head>
 
 <body>
-    <header>
-        <div class="header">
-            <h1>Luciana's Resume</h1>
+    <header class="header">
+        <div class="header__container width-limit">
+            <h1 class="header__title">Luciana Melina Calisaya <span class="header__title--span">Frontend Developer</span></h1>
         </div>
     </header>
     <main>
         <div class="quick-info">
-            <div class="quick-info__move">
-                <div class="quick-info__image">
-                    <img src="img/luciana-profile-pic.png" alt="">
+            <div class="quick-info__box width-limit">
+                <div class="quick-info__imagebox">
+                    <img class="quick-info__imagebox--image" src="img/luciana-profile-pic.png" alt="Luciana's profile">
                 </div>
                 <div class="quick-info__contact">
-                    <h5>Luciana Melina Calisaya</h5>
-                    <h5 class="mail">lmc.calisaya@gmail.com</h5>
-                    <h5 class="time">Contact time: morning</h5>
-                    <ul class="social-media">
-                        <li><a href="mailto: lmc.calisaya@gmail.com"><i class="far fa-envelope"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/luciana-calisaya/"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="https://github.com/lucianacalisaya"><i class="fab fa-github"></i></a></li>
-                        <li><a href="https://www.behance.net/lucalisaya"><i class="fab fa-behance"></i></a></li>
+                    <ul class="quick-info__social-media">
+                        <li class="quick-info__social-media--link"><i class="fas fa-map-marker-alt"></i> Montpellier, France</li>
+                        <li class="quick-info__social-media--link"><i class="fas fa-phone fa-flip-horizontal"></i> +33 6 67 42 76 97</li>
+                        <li><a class="quick-info__social-media--link" href="mailto: lmc.calisaya@gmail.com"><i class="far fa-envelope"></i> lmc.calisaya@gmail.com</a></li>
+                        <li><a class="quick-info__social-media--link" href="https://www.linkedin.com/in/luciana-calisaya/"><i class="fab fa-linkedin-in"></i> /luciana-calisaya</a></li>
+                        <li><a class="quick-info__social-media--link" href="https://github.com/lucianacalisaya"><i class="fab fa-github"></i> /lucianacalisaya</a></li>
                     </ul>
-                    <a class="portfolio" href="https://calisayaportfolio.netlify.app/">Go to my portfolio</a>
+                    <a class="portfolio" href="https://calisayaportfolio.netlify.app/" target="_blank">Go to my portfolio <i class="fas fa-arrow-right"></i></a>
                 </div>                
             </div>
         </div>
-        <div class="cv">
-            <div class="background">
-                <h3>My background</h3>
-                <div class="studies">
+        <div class="cv width-limit">
+            <div class="cv__skills cv__padding">
+                <h3 class="cv__h3">Skills</h3>
+                <div class="cv__skillbox">
+                    <h4 class="cv__skills--title">Languages</h4>
+                    <ul class="cv__skills--list">
+                        <li>Native Spanish</li>
+                        <li>Fluent English</li>
+                        <li>Basic Portuguese</li>
+                        <li>Beginner French</li>
+                    </ul>
+                </div>
+                <div class="cv__skillbox">
+                    <h4 class="cv__skills--title">Web Sketch</h4>
+                    <ul class="cv__skills--list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SASS <span class="cv__highlight">Node</span></li>
+                        <li>SEO</li>
+                        <li>JavaScript <span class="cv__highlight">JQuery</span></li>
+                        <li>React JS</li>
+                    </ul>
+                </div>
+                <div class="cv__skillbox">
+                    <h4 class="cv__skills--title">Libraries</h4>
+                    <ul class="cv__skills--list">
+                        <li>Bootstrap</li>
+                        <li>TailwindCSS</li>
+                    </ul>
+                </div>
+                <div class="cv__skillbox">
+                    <h4 class="cv__skills--title">Database</h4>
+                    <ul class="cv__skills--list">
+                        <li>Firebase</li>
+                    </ul>
+                </div>
+                <div class="cv__skillbox">
+                    <h4 class="cv__skills--title">Tools</h4>
+                    <ul class="cv__skills--list">
+                        <li>Git</li>
+                        <li>Github</li>
+                    </ul>
+                </div>
+                <div class="cv__skillbox">
+                    <h4 class="cv__skills--title">IDE</h4>
+                    <ul class="cv__skills--list">
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+                
+                <div class="cv__skillbox">
+                    <h4 class="cv__skills--title">Visual Sketch</h4>
+                    <ul class="cv__skills--list">
+                        <li>Adobe XD <span class="cv__highlight">Most used</span></li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+                <div class="cv__skillbox">
+                    <h4 class="cv__skills--title">UX/UI</h4>
+                    <ul class="cv__skills--list">
+                        <li>User research</li>
+                        <li>User testing</li>
+                        <li>Whimsical</li>
+                        <li>Optimal workshop</li>
+                        <li>Behance</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cv__background cv__padding">
+                <h3 class="cv__background--title cv__h3">Background</h3>
+                <div class="cv__fieldset">
                     <h4>Studies</h4>
                     <ul>
-                        <li>Colegio Nacional de Ushuaia - Social Science</li>
-                        <li>Cambridge First Certificate <span>level B2</span></li>
-                        <li>Universidad de Mar del Plata - Informatics Engineering <span>studying</span></li>
+                        <li>Colegio Nacional de Ushuaia - Bac Social Science</li>
+                        <li>Cambridge First Certificate <span class="cv__highlight">level B2</span></li>
                     </ul>
                 </div>
-                <div class="courses">
-                    <h4>Courses</h4>
+                <div class="cv__fieldset">
+                    <h4>Certifications</h4>
                     <ul>
-                        <li>Web development</li>
-                        <li>UX/UI</li>
-                        <li>JavaScript</li>
+                        <li>Web development <span class="cv__date">2020</span></li>
+                        <li>UX/UI <span class="cv__date">2020</span></li>
+                        <li>JavaScript <span class="cv__date">2021</span></li>
+                        <li>React JS <span class="cv__date">2022</span></li>
                     </ul>
                 </div>
-                <div class="work">
+                <div class="cv__fieldset">
                     <h4>Work experience</h4>
                     <ul>
-                        <li>Web development Tutor at <a href="https://www.coderhouse.com/">Coderhouse</a></li>
+                        <li>Web development Tutor at <a class="cv__fieldset--link" href="https://www.coderhouse.com/">Coderhouse</a> <span class="cv__date">Dec 2020 - Feb 2023</span></li>
                     </ul>
                 </div>
-                <div class="things">
+                <div class="cv__fieldset">
                     <h4>Things I like about myself. I'm:</h4>
                     <ul>
                         <li>Kind</li>
@@ -78,100 +143,42 @@
                         <li>Good at maths and solving problems</li>
                     </ul>
                 </div>
-                <div class="others">
+                <div class="cv__fieldset">
                     <h4>Extra</h4>
                     <ul>
-                        <li>Cashier at Keystone Resort - Work&Travel program in the USA.</li>
+                        <li>Cashier at Keystone Resort - Work&Travel program in the USA. <span class="cv__date">Dec 2021 - Apr 2022</span></li>
                         <li>Fun fact, I was the most efficient cashier for one month straight.</li>
                     </ul>
                 </div>
-            </div>
-            <div class="skills">
-                <h3>Skills</h3>
-                <div class="languages">
-                    <h4>Languages</h4>
+                <div class="cv__fieldset">
+                    <h4>Visa permit</h4>
                     <ul>
-                        <li>Native Spanish</li>
-                        <li>Fluent English</li>
-                        <li>Basic Portuguese</li>
-                    </ul>
-                </div>
-                <div class="sketch-code">
-                    <h4>Web Sketch</h4>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>SASS <span>Node</span></li>
-                        <li>SEO</li>
-                        <li>JavaScript <span>JQuery</span></li>
-                        <li>React.js</li>
-                    </ul>
-                </div>
-                <div class="sketch">
-                    <h4>Visual Sketch</h4>
-                    <ul>
-                        <li>Adobe XD <span>Most used</span></li>
-                        <li>Figma</li>
-                    </ul>
-                </div>
-                <div class="frameworks">
-                    <h4>Frameworks</h4>
-                    <ul>
-                        <li>Bootstrap</li>
-                    </ul>
-                </div>
-                <div class="team">
-                    <h4>Team work</h4>
-                    <ul>
-                        <li>Git</li>
-                        <li>Github</li>
-                    </ul>
-                </div>
-                <div class="plataform">
-                    <h4>Code plataform</h4>
-                    <ul>
-                        <li>Visual Studio Code</li>
-                    </ul>
-                </div>
-                <div class="ux-ui">
-                    <h4>UX/UI</h4>
-                    <ul>
-                        <li>User research</li>
-                        <li>User testing</li>
-                        <li>Whimsical</li>
-                        <li>Optimal workshop</li>
-                        <li>Behance</li>
+                        <li>Yes. Working holiday visa for a year.</li>
                     </ul>
                 </div>
             </div>
-            <div class="about">
-                <h3>A little bit about me</h3>
-                <p>
+            
+            <div class="cv__about cv__padding width-limit">
+                <h3 class="cv__h3">A little bit about me </h3>
+                <p class="cv__about--text">
                     I've lived in 2 pretty international touristic places such as Tilcara and Ushuaia, both in north and
                     south extremes of Argentina so I've always had contact with foreign people, I grew around many cultures
-                    and that formed me to be the kind and polite person I'm today. Even though friends and family
-                    consider me a nice person I never thought I could actually tutor people because I thought you just
+                    and that formed me to be the kind and polite person I'm today. At the moment I'm living in France, learning 
+                    about the language and the people and as challenging as it is, I'm loving it. <br/><br/> My friends and family
+                    consider me a smart person I never thought I could actually tutor people because I thought you just
                     had to have that skill but turns out I learnt how to explain myself and teach, plus the feedback I
-                    get really motivates me to keep going. <br>
-                    Where I work I experience changes all the time and I adapt really fast, I manage to keep organised
-                    and able to work and study at the same time. <br>
+                    get really motivates me to keep going. <br/><br/>
+                    Where I work at I experience changes all the time and I adapt really fast, I manage to keep organised
+                    and able to work and study at the same time.
                     I think I would be a nice incorporation to a team, perhaps I don't have much experience but I'm
                     willing to learn and I'd love to gain experience.
                 </p>
             </div>
         </div>
     </main>
-    <footer>
-        <div class="footer">
-            <nav>
-                <ul class="social-media">
-                    <li><a href="mailto: lmc.calisaya@gmail.com"><i class="far fa-envelope"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/luciana-calisaya/"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li><a href="https://github.com/lucianacalisaya"><i class="fab fa-github"></i></a></li>
-                    <li><a href="https://www.behance.net/lucalisaya"><i class="fab fa-behance"></i></a></li>
-                </ul>
-            </nav>
-            <h6>Made by Luciana Calisaya</h6>
+    <footer class="footer">
+        <div class="footer__container width-limit">
+            <h6 class="footer__title">Made by Luciana Calisaya</h6>
         </div>
     </footer>
 </body>
